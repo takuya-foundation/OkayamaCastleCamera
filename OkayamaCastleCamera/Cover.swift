@@ -17,9 +17,15 @@ enum Cover {
         case 0:
             self = .normal
         case 1:
-            self = .covered(image: CIImage(image: #imageLiteral(resourceName: "cover1"))!)
+            self = .covered(image: CIImage(image: #imageLiteral(resourceName: "cover0"))!)
         case 2:
+            self = .covered(image: CIImage(image: #imageLiteral(resourceName: "cover1"))!)
+        case 3:
             self = .covered(image: CIImage(image: #imageLiteral(resourceName: "cover2"))!)
+        case 4:
+            self = .covered(image: CIImage(image: #imageLiteral(resourceName: "cover3"))!)
+        case 5:
+            self = .covered(image: CIImage(image: #imageLiteral(resourceName: "cover4"))!)
         default:
             return nil
         }
